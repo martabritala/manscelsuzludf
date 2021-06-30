@@ -129,7 +129,7 @@ export function Hero({ background }) {
         top: '10vh', 
         background: background,
         backgroundPosition: 'center',
-        backgroundSize: 'cover',
+        backgroundSize: 'auto 50vh',
         backgroundRepeat: 'no-repeat',
       }}
     />
