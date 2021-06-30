@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 2500 2500">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #ffe41d;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #ffe41d;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-dasharray: 586.36 293.18;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 146.59px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="604.5" cy="1771.5" r="310.5"/>
+  <path class="cls-2" d="M605,1818S584.745,850,986,850s170.39,745.04,536,755c356.89-4.43,146.71-662.586,537-1010-392.41,348.082-183.27,1006.31-534,1007-365.75.72-137.75-755-539-755s-381,971-381,971h0Z"/>
+  <path id="Triangle_1" data-name="Triangle 1" class="cls-3" d="M2274.77,272.621l-126.84,653.27-455.4-331.024Z"/>
+</svg>
