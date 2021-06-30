@@ -125,11 +125,10 @@ export function Hero({ background }) {
     <section
       style=${{
         height: '50vh',
-        position: 'relative',
-        top: '10vh', 
+        margin: '10vh 0 0 0',
         background: background,
         backgroundPosition: 'center',
-        backgroundSize: 'auto 50vh',
+        backgroundSize: 'auto 80vh',
         backgroundRepeat: 'no-repeat',
       }}
     />
