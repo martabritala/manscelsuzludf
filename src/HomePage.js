@@ -54,7 +54,7 @@ function HeroHeading() {
       style=${{
         color: 'var(--text-yellow)',
         padding: '0 5vw',
-        textAlign: 'right',
+        textAlign: 'left',
         fontSize: 'calc(28px + 5vw)',
         textShadow: '2px 2px 0 #000',
         zIndex: 10,

@@ -50,13 +50,13 @@ export function Header() {
     >
       <a
         href=${makeHref(language)}
-        title="Mans ceļs uz LU"
+        title="Mans ceļs uz LUDF"
         style=${{
           flex: '1 0 auto',
           minWidth: 60,
           lineHeight: 0,
           alignSelf: 'stretch',
-          background: 'url(/images/mans-cels.png)',
+          background: 'url(./images/mans-cels.png)',
           backgroundPosition: 'right',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',

@@ -35,7 +35,7 @@ const content = {
       and helmets are softly dancing and billions upon billions upon
       billions upon billions upon billions upon billions upon billions.
     <//>
-    <${MapImage} src="/images/map.biblene.png" href=${mapLink} />
+    <${MapImage} src="./images/map.biblene.png" href=${mapLink} />
     <${P}>
       Cosmos at the edge of forever Hypatia Flatland tingling of the
       spine something incredible is waiting to be known. Tesseract take
@@ -62,7 +62,7 @@ const content = {
       during the Renaissance. The first line of Lorem Ipsum, "Lorem
       ipsum dolor sit amet..", comes from a line in section 1.10.32.
     <//>
-    <${MapImage} src="/images/map.biblene.png" href=${mapLink} />
+    <${MapImage} src="./images/map.biblene.png" href=${mapLink} />
     <${P}>
       Invent the universe corpus callosum Hypatia encyclopaedia
       galactica dispassionate extraterrestrial observer Rig Veda.
@@ -87,16 +87,16 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(/images/subpat.folk.png) center center / 800px repeat,
+          url(./images/subpat.folk.png) center center / 800px repeat,
           var(--header-bg-blue)
         `,
       }}
     >
-      <${Hero} background="url(/images/streetview.biblene.jpg)" />
+      <${Hero} background="url(./images/streetview.biblene.jpg)" />
       <${Page}
         style=${{
           background: `
-            url(/images/subpat.folk.png) center center / 400px repeat,
+            url(./images/subpat.folk.png) center center / 400px repeat,
             #5a5934
           `,
         }}
