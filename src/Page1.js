@@ -87,16 +87,16 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(/images/subpat.circuit.png) center center / 800px repeat,
+          url(./images/subpat.circuit.png) center center / 800px repeat,
           var(--header-bg-blue)
         `,
       }}
     >
-      <${Hero} background="url(/images/streetview.akmenu.jpg)" />
+      <${Hero} background="url(./images/streetview.akmenu.jpg)" />
       <${Page}
         style=${{
           background: `
-            url(/images/subpat.circuit.png) center center / 400px repeat,
+            url(./images/subpat.circuit.png) center center / 400px repeat,
             #cd594a
           `,
         }}

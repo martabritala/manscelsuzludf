@@ -18,8 +18,8 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(/images/marta_backpacking.png) center center / cover no-repeat,
-          url(/images/dflogobw.png) center center / 100px repeat
+          url(./images/marta_backpacking.png) center center / cover no-repeat,
+          url(./images/dflogobw.png) center center / 100px repeat
         `,
         overflow: 'hidden',
       }}
@@ -62,8 +62,8 @@ function HeroHeading() {
     >
       ${
         (language == "en")
-        ? html`My Path to<br />University of Latvia`
-        : html`Mans ceļš uz<br />Latvijas Universitāti`
+        ? html`My Path to<br />University of Latvia Faculty of Computing`
+        : html`Mans ceļš uz<br />Latvijas Universitātes Datorikas fakultāti`
       }
     </h1>
   `;
