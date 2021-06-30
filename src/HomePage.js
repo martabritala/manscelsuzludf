@@ -55,7 +55,7 @@ function HeroHeading() {
         color: 'var(--text-yellow)',
         padding: '0 5vw',
         textAlign: 'left',
-        fontSize: 'calc(28px + 5vw)',
+        fontSize: 'calc(20px + 5vw)',
         textShadow: '2px 2px 0 #000',
         zIndex: 10,
       }}
