@@ -124,7 +124,7 @@ export function Hero({ background }) {
   return html`
     <section
       style=${{
-        height: '50vh',
+        height: '80vh',
         background: background,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
