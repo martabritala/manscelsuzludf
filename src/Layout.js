@@ -128,7 +128,7 @@ export function Hero({ background }) {
         margin: '10vh 0 0 0',
         background: background,
         backgroundPosition: 'center',
-        backgroundSize: 'auto 80vh',
+        backgroundSize: '100% auto',
         backgroundRepeat: 'no-repeat',
       }}
     />
