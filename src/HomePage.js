@@ -62,8 +62,8 @@ function HeroHeading() {
     >
       ${
         (language == "en")
-        ? html`My Path to<br />University of Latvia Faculty of Computing`
-        : html`Mans ceļš uz<br />Latvijas Universitātes Datorikas fakultāti`
+        ? html`My Path to<br />University of Latvia<br />Faculty of Computing`
+        : html`Mans ceļš uz<br />Latvijas Universitātes<br />Datorikas fakultāti`
       }
     </h1>
   `;
