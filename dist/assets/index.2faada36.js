@@ -85,7 +85,7 @@ var e=Object.defineProperty,n=Object.getOwnPropertySymbols,t=Object.prototype.ha
   `}}const E={lv:"Mans ceļš uz Latvijas Universitāti",en:"My Path to University of Latvia"};function H(){return d`
     <img
       alt="Sirds"
-      src="/images/sirds.png"
+      src="./images/sirds.png"
       style=${{alignSelf:"center",position:"absolute",width:"30vh",bottom:"5vh"}}
     />
   `}function P(){const{language:e}=b();return d`
