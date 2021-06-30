@@ -124,8 +124,8 @@ export function Hero({ background }) {
   return html`
     <section
       style=${{
-        height: '50vh',
-        padding: '10vh 0 0 0',
+        height: '80vh',
+        margin: '10vh 0 0 0',
         background: background,
         backgroundPosition: 'center',
         backgroundSize: 'auto 80vh',
