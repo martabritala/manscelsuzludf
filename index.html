@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet" />
+
+    <title>Mans ceļš no mājām uz Latvijas Universitāti.</title>
+
+    <style>
+      /* design colors */
+      :root {
+        --text-yellow: #ffe41d;
+        --text-blue: #283a5e;
+        --header-bg-blue: #283a5eaa;
+      }
+
+      /* minimal css reset */
+      html {
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* sticky footer */
+      html, body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: 1 0 auto;
+      }
+
+      /* base font */
+      html {
+        font-family: 'Merriweather', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
