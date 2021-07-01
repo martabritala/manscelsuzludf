@@ -120,20 +120,34 @@ export function Main({ children, style }) {
   `;
 }
 
-export function Hero({ background }) {
-  return html`
-    <section
-      style=${{
-        maxWidth: '800px',
-        margin: '10vh 0 0 0',
-        background: background,
-        backgroundPosition: 'center',
-        backgroundSize: '100% auto',
-        backgroundRepeat: 'no-repeat',
-      }}
-    />
-  `;
-}
+// export function Hero({ background }) {
+//   return html`
+//     <section
+//       style=${{
+//         height: '80vh',
+//         margin: '10vh 0 0 0',
+//         background: background,
+//         backgroundPosition: 'center',
+//         backgroundSize: '100% auto',
+//         backgroundRepeat: 'no-repeat',
+//       }}
+//     />
+//   `;
+// }
+
+export function Hero({ src }) {
+    return html`
+      <img
+        style=${{
+          height: '80vh',
+          maxWidth: '800px',
+          margin: '10vh 0 0 0',
+        }}
+        src=${src}
+      />
+    `;
+  }
+  
 
 export function PageHeading({ children }) {
   return html`
