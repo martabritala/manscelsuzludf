@@ -20,9 +20,9 @@ const mapLink = 'https://www.openstreetmap.org/?mlat=56.93866&mlon=24.09571#map=
 
 const hero = {
   lv: html 
-    './images/majas1.png',
+    "./images/majas1.png",
   en: html
-    './images/majas1EN.png',
+    "./images/majas1EN.png",
 };
 
 const content = {
