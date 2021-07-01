@@ -12,8 +12,8 @@ const P = makeParagraph({
 });
 
 const heading = {
-  lv: 'Mājas',
-  en: 'Home',
+  lv: 'Manas mājas Akmeņu ielā',
+  en: 'My home on Akmeņu street',
 };
 
 const mapLink = 'https://www.openstreetmap.org/?mlat=56.93866&mlon=24.09571#map=17/56.93866/24.09571&layers=H';
@@ -22,38 +22,31 @@ const content = {
   lv: html`
     <${PageHeading}>${heading.lv}<//>
     <${P}>
-      Astonishment rings of Uranus billions upon billions prime number
-      Hypatia Rig Veda. Not a sunrise but a galaxyrise shores of the
-      cosmic ocean Sea of Tranquility of brilliant syntheses something
-      incredible is waiting to be known Orion's sword. Vastness is
-      bearable only through love dispassionate extraterrestrial
-      observer network of wormholes finite but unbounded a mote of dust
-      suspended in a sunbeam tendrils of gossamer clouds. Rich in
-      mystery a very small stage in a vast cosmic arena the ash of
-      stellar alchemy made in the interiors of collapsing stars are
-      creatures of the cosmos two ghostly white figures in coveralls
-      and helmets are softly dancing and billions upon billions upon
-      billions upon billions upon billions upon billions upon billions.
+    Manai mājai jau vairāk nekā 150 gadu! <br /> <br />Sākotnēji tā tika būvēta pie
+    Pārdaugavas pirmās bruģētās – tāpēc nosaukums Akmeņu - ielas. Lai
+    gan nezinu – pirmā bija iela vai māja? Savulaik mājā atradusies slimnīca.
+    Kad biju maza, uz sienas bija pat vēl saskatāmi burti no agrākā ēkas
+    nosaukuma. Šobrīd esam atdalījušies no Rīgas Namu pārvaldnieka un kā biedrība veicam mājas
+    atjaunošanu.
     <//>
     <${MapImage} src="./images/map.akmenu.png" href=${mapLink} />
+    <${P}>
+    Par māju vairāk stāstīts ciklā „Ielas garumā”.
+    <//>
   `,
   en: html`
     <${PageHeading}>${heading.en}<//>
     <${P}>
-      Contrary to popular belief, Lorem Ipsum is not simply random
-      text. It has roots in a piece of classical Latin literature from
-      45 BC, making it over 2000 years old. Richard McClintock, a Latin
-      professor at Hampden-Sydney College in Virginia, looked up one of
-      the more obscure Latin words, consectetur, from a Lorem Ipsum
-      passage, and going through the cites of the word in classical
-      literature, discovered the undoubtable source. Lorem Ipsum comes
-      from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-      BC. This book is a treatise on the theory of ethics, very popular
-      during the Renaissance. The first line of Lorem Ipsum, "Lorem
-      ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      My home is older than 150 years! <br /><br /> It was built by the first 
+      stone road in Pārdaugava. That is why the street name is "Akmeņu" (stone) street.
+      Although I am not sure wether the street or the house was first.
+      When I was little the name of the building was still visible on the wall.
+      Currenty we have left Rīgas Namu Pārvaldnieks and have made a union to renovate our home. 
     <//>
     <${MapImage} src="./images/map.akmenu.png" href=${mapLink} />
+    <${P}>
+      There is more information about the building in the documentary series „Ielas garumā”.
+    <//>
   `,
 }
 
