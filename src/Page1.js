@@ -19,10 +19,8 @@ const heading = {
 const mapLink = 'https://www.openstreetmap.org/?mlat=56.93866&mlon=24.09571#map=17/56.93866/24.09571&layers=H';
 
 const hero = {
-  lv: html 
-    "./images/majas1.png",
-  en: html
-    "./images/majas1EN.png",
+  lv: "/images/majas1.png",
+  en: "/images/majas1EN.png",
 };
 
 const content = {
@@ -71,8 +69,7 @@ export default function HomePage() {
         `,
       }}
     >
-      <${Hero} 
-        src= ${hero[language]}/>
+      <${Hero} src=${hero[language]} />
       <${Page}
         style=${{
           background: `
