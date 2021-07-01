@@ -70,7 +70,7 @@ export default function HomePage() {
       }}
     >
       <${Hero} 
-        src= ${hero[language]}/>
+        src= "${hero[language]}"/>
       <${Page}
         style=${{
           background: `
