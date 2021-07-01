@@ -36,15 +36,6 @@ const content = {
       billions upon billions upon billions upon billions upon billions.
     <//>
     <${MapImage} src="./images/map.akmenu.png" href=${mapLink} />
-    <${P}>
-      Cosmos at the edge of forever Hypatia Flatland tingling of the
-      spine something incredible is waiting to be known. Tesseract take
-      root and flourish invent the universe made in the interiors of
-      collapsing stars kindling the energy hidden in matter the only
-      home we've ever known? A still more glorious dawn awaits rich in
-      heavy atoms the only home we've ever known great turbulent clouds
-      great turbulent clouds vastness is bearable only through love?
-    <//>
   `,
   en: html`
     <${PageHeading}>${heading.en}<//>
@@ -63,18 +54,6 @@ const content = {
       ipsum dolor sit amet..", comes from a line in section 1.10.32.
     <//>
     <${MapImage} src="./images/map.akmenu.png" href=${mapLink} />
-    <${P}>
-      Invent the universe corpus callosum Hypatia encyclopaedia
-      galactica dispassionate extraterrestrial observer Rig Veda.
-      Decipherment two ghostly white figures in coveralls and helmets
-      are softly dancing Euclid tingling of the spine of brilliant
-      syntheses not a sunrise but a galaxyrise. Courage of our
-      questions a very small stage in a vast cosmic arena two ghostly
-      white figures in coveralls and helmets are softly dancing bits of
-      moving fluff network of wormholes a very small stage in a vast
-      cosmic arena and billions upon billions upon billions upon
-      billions upon billions upon billions
-    <//>
   `,
 }
 
