@@ -141,7 +141,7 @@ export function Hero({ src }) {
         style=${{
           height: '80vh',
           maxWidth: '800px',
-          margin: '10vh 0 0 0',
+          margin: '10vh auto 0 auto',
         }}
         src=${src}
       />
