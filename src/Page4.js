@@ -56,7 +56,7 @@ const content = {
       during the Renaissance. The first line of Lorem Ipsum, "Lorem
       ipsum dolor sit amet..", comes from a line in section 1.10.32.
     <//>
-    <${MapImage} src="./images/map.biblene.png" href=${mapLink} />
+    <iframe src="https://www.google.com/maps/embed?pb=!1m38!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m23!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!4m5!1s0x46eed02815f1d127%3A0x30a1fb9c59059693!2sAkmens%20tilts!3m2!1d56.944773899999994!2d24.1013625!4m5!1s0x46eecfd7a81ed531%3A0x6bec487673a5b6ae!2zUlRVLCBLYcS8xLd1IGllbGEsIENlbnRyYSByYWpvbnMsIFLEq2dh!3m2!1d56.9472011!2d24.1051693!5e0!3m2!1slv!2slv!4v1625177003491!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
     Vairāk par Rīgas Tehnisko universitāti: <a href="https://www.rtu.lv/"> RTU mājaslapā </a> 
   <//>
