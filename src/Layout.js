@@ -139,7 +139,8 @@ export function Hero({ src }) {
     return html`
       <img
         style=${{
-          maxWidth: '800px',
+          maxWidth: '100vw',
+          width: '800px',
           margin: '10vh auto 0 auto',
         }}
         src=${src}
