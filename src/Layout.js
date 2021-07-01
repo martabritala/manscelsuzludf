@@ -172,6 +172,7 @@ export function Page({ children, style }) {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+        textAlign: 'justify',
       }}
     >
       <div
@@ -227,6 +228,7 @@ function Paragraph({ style, children }) {
     margin: '20px 0',
     color: 'black',
     padding: '0 5vw',
+    textAlign: 'justify',
     ...style,
   }), [style]);
 
