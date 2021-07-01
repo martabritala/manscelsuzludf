@@ -18,7 +18,7 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(./images/HomePage.png) center center / cover no-repeat,
+          url(./images/HomePage.png) center center / 100% no-repeat,
           url(./images/dflogobw.png) center center / 100px repeat
         `,
         overflow: 'hidden',
