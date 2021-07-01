@@ -36,6 +36,9 @@ const content = {
       billions upon billions upon billions upon billions upon billions.
     <//>
     <${MapImage} src="./images/map.biblene.png" href=${mapLink} />
+    <${P}>
+    Vairāk par Rīgas Tehnisko universitāti: <a href="https://www.rtu.lv/"> RTU mājaslapā </a> 
+    <//>
   `,
   en: html`
     <${PageHeading}>${heading.en}<//>
@@ -54,6 +57,10 @@ const content = {
       ipsum dolor sit amet..", comes from a line in section 1.10.32.
     <//>
     <${MapImage} src="./images/map.biblene.png" href=${mapLink} />
+    <${P}>
+    Vairāk par Rīgas Tehnisko universitāti: <a href="https://www.rtu.lv/"> RTU mājaslapā </a> 
+  <//>
+
   `,
 }
 
