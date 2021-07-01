@@ -14,16 +14,20 @@ export default function HomePage() {
   useHtmlTitle(heading, true);
 
   return html`
+    <style>
+      @media (min-width: 550px) {
+        main {
+          background: url(./images/HomePage.png) center center / contain no-repeat, url(./images/dflogobw.png) center center / 100px repeat;
+        }
+      }
+      @media (max-width: 550px) {
+        main {
+          background: url(./images/HomePage.mobile.png) center center / contain no-repeat, url(./images/dflogobw.png) center center / 100px repeat;
+        }
+      }
+    </style>
     <${Header} />
-    <${Main}
-      style=${{
-        background: `
-          url(./images/HomePage.png) center center / 100% no-repeat,
-          url(./images/dflogobw.png) center center / 100px repeat
-        `,
-        overflow: 'hidden',
-      }}
-    >
+    <${Main} style=${{ overflow: 'hidden' }}>
       <${HeroHeading} />
       <${Heart} />
     <//>
