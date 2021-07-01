@@ -73,7 +73,7 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(./images/subpat.folk.png) center center / 800px repeat,
+          url(./images/dflogobw.png) center center / 100px repeat,
           var(--header-bg-blue)
         `,
       }}
@@ -82,7 +82,7 @@ export default function HomePage() {
       <${Page}
         style=${{
           background: `
-            url(./images/subpat.folk.png) center center / 400px repeat,
+            url(./images/fons.png) center center / 40px repeat,
             #5a5934
           `,
         }}
