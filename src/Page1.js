@@ -66,7 +66,7 @@ export default function HomePage() {
     <${Main}
       style=${{
         background: `
-          url(./images/subpat.circuit.png) center center / 800px repeat,
+          url(./images/fons.png) center center / 800px repeat,
           var(--header-bg-blue)
         `,
       }}
