@@ -17,7 +17,7 @@ export default function HomePage() {
     <style>
       @media (min-width: 550px) {
         main {
-          background: url(./images/HomePage.png) center center / auto 100% no-repeat, url(./images/dflogobw.png) center center / 100px repeat;
+          background: url(./images/HomePage.png) center center / 100% auto no-repeat, url(./images/dflogobw.png) center center / 100px repeat;
         }
       }
       @media (max-width: 550px) {
