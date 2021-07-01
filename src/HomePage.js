@@ -39,7 +39,7 @@ function Heart() {
       style=${{
         alignSelf: 'center',
         position: 'absolute',
-        width: '30vh',
+        width: '20vh',
         bottom: '5vh',
       }}
     />
@@ -55,7 +55,7 @@ function HeroHeading() {
         color: 'var(--text-yellow)',
         padding: '0 5vw',
         textAlign: 'left',
-        fontSize: 'calc(20px + 5vw)',
+        fontSize: 'calc(20px + 3vw)',
         textShadow: '2px 2px 0 #000',
         zIndex: 10,
       }}
