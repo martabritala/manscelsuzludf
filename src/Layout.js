@@ -1,6 +1,8 @@
 import { html, useMemo } from 'https://unpkg.com/htm/preact/standalone.module.js'
 import { makeHref, useRoute } from './routing.js'
 
+const comicFont = '"Comic Sans MS", "Comic Sans", "Comic Neue", cursive';
+
 function TopLink({ index }) {
   const {language, page} = useRoute();
 
@@ -15,9 +17,10 @@ function TopLink({ index }) {
       style=${{
         width: '5vmin',
         height: '5vmin',
+        lineHeight: '4.5vmin',
         fontSize: '2.9vmin',
         fontWeight: 'bold',
-        fontFamily: '"Comic Sans MS", "Comic Sans", cursive',
+        fontFamily: comicFont,
         color: (page == index) ? 'var(--text-blue)' : 'var(--text-yellow)',
         margin: '0 2vw',
         textDecoration: 'none',
@@ -97,7 +100,7 @@ function LanguageSwitcher() {
         margin: '0 3vw',
         textDecoration: 'none',
         fontSize: 'calc(15px + 1vw)',
-        fontFamily: '"Comic Sans MS", "Comic Sans", cursive',
+        fontFamily: comicFont,
       }}
     >
       ${language == 'lv' ? 'EN' : 'LV'}
@@ -215,7 +218,7 @@ export function Footer({ position, background }) {
         lineHeight: '54px',
         textAlign: 'center',
         fontSize: '16px',
-        fontFamily: '"Comic Sans MS", "Comic Sans", cursive',
+        fontFamily: comicFont,
       }}
     >
       © Marta Britāla 2021
