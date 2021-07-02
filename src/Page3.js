@@ -37,7 +37,7 @@ const content = {
       Ziemā "Staro Rīga" laikā pāri Akmens tiltam ir ļoti skaisti iet, jo var redzēt skaisti izgaismotu dzelzceļa tiltu 
       un spīdošo Swedbank ēku. Arī Latvijas Nacionālā bibliotēka ir skaista ēka Akmens tiltam blakus.
     <//>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!4m5!1s0x46eed02815f1d127%3A0x30a1fb9c59059693!2sAkmens%20tilts!3m2!1d56.944773899999994!2d24.1013625!5e0!3m2!1slv!2slv!4v1625177071398!5m2!1slv!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!4m5!1s0x46eed02815f1d127%3A0x30a1fb9c59059693!2sAkmens%20tilts!3m2!1d56.944773899999994!2d24.1013625!5e0!3m2!1slv!2slv!4v1625177071398!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
     Vairāk par Akmens tiltu<a href="https://lv.wikipedia.org/wiki/Akmens_tilts"> Vikipēdijā </a> 
     <//>
