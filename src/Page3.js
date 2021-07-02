@@ -27,43 +27,34 @@ const content = {
   lv: html`
     <${PageHeading}>${heading.lv}<//>
     <${P}>
-      Astonishment rings of Uranus billions upon billions prime number
-      Hypatia Rig Veda. Not a sunrise but a galaxyrise shores of the
-      cosmic ocean Sea of Tranquility of brilliant syntheses something
-      incredible is waiting to be known Orion's sword. Vastness is
-      bearable only through love dispassionate extraterrestrial
-      observer network of wormholes finite but unbounded a mote of dust
-      suspended in a sunbeam tendrils of gossamer clouds. Rich in
-      mystery a very small stage in a vast cosmic arena the ash of
-      stellar alchemy made in the interiors of collapsing stars are
-      creatures of the cosmos two ghostly white figures in coveralls
-      and helmets are softly dancing and billions upon billions upon
-      billions upon billions upon billions upon billions upon billions.
+      Akmens tilts ir viens no tiltiem pāri Daugavai. Manuprāt Akmens tilts ir vislabāk piemērotais no tiltiem gājējiem. 
+      Gan tāpēc, ka tam ir viegla uziešana un noiešana no tilta, gan arī tāpēc, ka tā novietojums ir pretī Vecrīgai, 
+      kas ir paredzēta gājējiem. Domāju, ka abi šie iemesli ir saistīti ar to, ka tilts būvēts āgrāk bijušā pontonu tilta vietā. 
+      Katrā ziņā, ja arī varbūt kāds gājējs vēlas iet pāri cietiem tiltiem, tad tomēr neapšaubāmi var teikt, ka
+      Akmens tilts ir greznākais no visiem tiltiem pāri Daugavai Rīgā. 
+      Visa tā garumā margas ir rotātas ar ornamentiem, tam ir vairākas greznas laternas. 
+      Arī Daugavas krastā blakus tiltam ir izgreznotas margas. 
+      Ziemā "Staro Rīga" laikā pāri Akmens tiltam ir ļoti skaisti iet, jo var redzēt skaisti izgaismotu dzelzceļa tiltu 
+      un spīdošo Swedbank ēku. Arī Latvijas Nacionālā bibliotēka ir skaista ēka Akmens tiltam blakus.
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!4m5!1s0x46eed02815f1d127%3A0x30a1fb9c59059693!2sAkmens%20tilts!3m2!1d56.944773899999994!2d24.1013625!5e0!3m2!1slv!2slv!4v1625177071398!5m2!1slv!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
-    Vairāk par Latvijas Nacionālo bibliotēku<a href="https://lnb.lv/"> LNB mājaslapā </a> 
+    Vairāk par Akmens tiltu<a href="https://lv.wikipedia.org/wiki/Akmens_tilts"> Vikipēdijā </a> 
     <//>
   `,
   en: html`
     <${PageHeading}>${heading.en}<//>
     <${P}>
-      Contrary to popular belief, Lorem Ipsum is not simply random
-      text. It has roots in a piece of classical Latin literature from
-      45 BC, making it over 2000 years old. Richard McClintock, a Latin
-      professor at Hampden-Sydney College in Virginia, looked up one of
-      the more obscure Latin words, consectetur, from a Lorem Ipsum
-      passage, and going through the cites of the word in classical
-      literature, discovered the undoubtable source. Lorem Ipsum comes
-      from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-      BC. This book is a treatise on the theory of ethics, very popular
-      during the Renaissance. The first line of Lorem Ipsum, "Lorem
-      ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    The stone bridge is one of the bridges over the river Daugava. In my opinion, the Stone Bridge is the best of the bridges for pedestrians.
+    Both because it has easy access to and exit from the bridge, and also because its location is opposite the Old Town, which is intended for pedestrians. I think both of these reasons are due to the fact that the bridge was built earlier on the site of the former pontoon bridge.
+    In any case, if maybe a pedestrian wants to cross the solid bridges, then it can definitely be said that the Stone Bridge is the most ornamental of all the bridges over Daugava in Riga.
+    Throughout its length, the railings are decorated with ornaments, it has several luxurious lanterns.
+    There are also ornamental railings on the bank of the Daugava next to the bridge.
+    In winter, during the "Staro Rīga" festival, it is very beautiful to walk across the Stone Bridge, because you can see a beautifully lit railway bridge and the shining Swedbank building. The National Library of Latvia is also a beautiful building next to the Stone Bridge.    
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!4m5!1s0x46eed02815f1d127%3A0x30a1fb9c59059693!2sAkmens%20tilts!3m2!1d56.944773899999994!2d24.1013625!5e0!3m2!1slv!2slv!4v1625177071398!5m2!1slv!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
-    Vairāk par Latvijas Nacionālo bibliotēku<a href="https://lnb.lv/"> LNB mājaslapā </a> 
+    More about the Stone bridge <a href="https://lv.wikipedia.org/wiki/Akmens_tilts"> on Wikipedia </a> 
     <//>
     `,
 }
