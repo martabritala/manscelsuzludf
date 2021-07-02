@@ -7,7 +7,7 @@ import { useRoute } from './routing.js'
 
 const P = makeParagraph({
   style: {
-    color: '#fff'
+    color: '#FEE715'
   }
 });
 
