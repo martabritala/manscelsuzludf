@@ -22,38 +22,35 @@ const content = {
   lv: html`
     <${PageHeading}>${heading.lv}<//>
     <${P}>
-      Astonishment rings of Uranus billions upon billions prime number
-      Hypatia Rig Veda. Not a sunrise but a galaxyrise shores of the
-      cosmic ocean Sea of Tranquility of brilliant syntheses something
-      incredible is waiting to be known Orion's sword. Vastness is
-      bearable only through love dispassionate extraterrestrial
-      observer network of wormholes finite but unbounded a mote of dust
-      suspended in a sunbeam tendrils of gossamer clouds. Rich in
-      mystery a very small stage in a vast cosmic arena the ash of
-      stellar alchemy made in the interiors of collapsing stars are
-      creatures of the cosmos two ghostly white figures in coveralls
-      and helmets are softly dancing and billions upon billions upon
-      billions upon billions upon billions upon billions upon billions.
+    Kad vēl gāju skolas pirmajās klasītēs, ik rītu devos uz skolu pa šo Valguma
+    ielas posmu, kur bibliotēkas vietā atradās automašīnu stāvlaukums, veci
+    šķūņi, tādas kā noliktavu un varbūt pat nabadzīgas dzīvojamās ēkas. Bija
+    interesanti vērot, kā viss tiek notīrīts un tā vietā pamazām paceļas
+    Nacionālās bibliotēkas ēka. Varētu pat teikt, ka esmu piedalījusies tās
+    radīšanā, jo kopā ar kori "Kamēr..." dziedājām pamatakmens ielikšanas
+    ceremonijā. <br />
+    Vēl gluži personiski jāpiemin, ka uz bibliotēkas spicē
+    novietotā flīģeļa kādas ekskursijas laikā pats pēc savas iniciatīvas – bet,
+    protams, ar ekskursijas vadītājas atļauju – nelielu koncertu ir sniedzis
+    manas māsas grieķu vīrs Aris, kurš ir profesionāls pianists.
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!5e0!3m2!1slv!2slv!4v1625177115380!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  `,
+    <${P}>
+    Vairāk par Latvijas Nacionālo bibliotēku: <a href="https://lnb.lv/"> LNB mājaslapā </a> 
+    <//>
+    `,
   en: html`
     <${PageHeading}>${heading.en}<//>
     <${P}>
-      Contrary to popular belief, Lorem Ipsum is not simply random
-      text. It has roots in a piece of classical Latin literature from
-      45 BC, making it over 2000 years old. Richard McClintock, a Latin
-      professor at Hampden-Sydney College in Virginia, looked up one of
-      the more obscure Latin words, consectetur, from a Lorem Ipsum
-      passage, and going through the cites of the word in classical
-      literature, discovered the undoubtable source. Lorem Ipsum comes
-      from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-      BC. This book is a treatise on the theory of ethics, very popular
-      during the Renaissance. The first line of Lorem Ipsum, "Lorem
-      ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    When I was still in the first grades of school, I went to school every morning along this section of Valguma Street, where instead of the library there was a parking lot, 
+    old barns, such as a warehouse and some poor residential buildings. It was interesting to see everything cleaned up and the National Library building gradually rising up instead. 
+    You could even say that I have participated in its creation, because together with the youth choir "Kamēr..." we sang in the laying of the foundation stone ceremony. <br />
+    It should also be personally mentioned that during a tour, on the grand piano at the top of the library a small concert was given by my sister's Greek husband Aris, who is a professional pianist, on his own initiative - but of course with the permission of the tour guide.    
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!5e0!3m2!1slv!2slv!4v1625177115380!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <${P}>
+    More about the National Library of latvia <a href="https://lnb.lv/"> their website </a> 
+    <//>
   `,
 }
 
