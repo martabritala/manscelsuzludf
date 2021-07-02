@@ -73,7 +73,7 @@ export default function HomePage() {
         `,
       }}
     >
-      <${Hero} src="./images/posms7.png" />
+      <${Hero} src="./images/ludf7.png" />
       <${Page}
         style=${{
           background: `
