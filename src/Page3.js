@@ -16,6 +16,11 @@ const heading = {
   en: `Stone bridge`,
 };
 
+const hero = {
+  lv: "./images/posms3.png",
+  en: "./images/posms3EN.png",
+};
+
 const mapLink = 'https://www.openstreetmap.org/?mlat=56.94106&mlon=24.09671#map=17/56.94106/24.09671&layers=H';
 
 const content = {
@@ -71,8 +76,8 @@ export default function HomePage() {
         `,
       }}
     >
-      <${Hero} src="./images/posms3.png" />
-      <${Page}
+    <${Hero} src=${hero[language]} />
+    <${Page}
         style=${{
           background: `
             url(./images/fons.png) center center / 40px repeat,

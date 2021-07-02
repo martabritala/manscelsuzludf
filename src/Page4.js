@@ -11,6 +11,11 @@ const P = makeParagraph({
   }
 });
 
+const hero = {
+  lv: "./images/posms4.png",
+  en: "./images/posms4EN.png",
+};
+
 const heading = {
   lv: `Rīgas Tehniskā Universitāte`,
   en: `Riga Technical University`,
@@ -78,8 +83,8 @@ export default function HomePage() {
         `,
       }}
     >
-      <${Hero} src="./images/posms4.png" />
-      <${Page}
+    <${Hero} src=${hero[language]} />
+    <${Page}
         style=${{
           background: `
             url(./images/fons.png) center center / 40px repeat,

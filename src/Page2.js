@@ -16,6 +16,11 @@ const heading = {
   en: `National Library of Latvia`,
 };
 
+const hero = {
+  lv: "./images/posms2.png",
+  en: "./images/posms2EN.png",
+};
+
 const mapLink = 'https://www.openstreetmap.org/?mlat=56.94106&mlon=24.09671#map=17/56.94106/24.09671&layers=H';
 
 const content = {
@@ -36,7 +41,7 @@ const content = {
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!5e0!3m2!1slv!2slv!4v1625177115380!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
-    Vairāk par Latvijas Nacionālo bibliotēku: <a href="https://lnb.lv/"> LNB mājaslapā </a> 
+    Vairāk par Latvijas Nacionālo bibliotēku<a href="https://lnb.lv/"> LNB mājaslapā </a> 
     <//>
     `,
   en: html`
@@ -49,7 +54,7 @@ const content = {
     <//>
     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2554.763657950183!2d24.11266605874542!3d56.94429685694671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x46eed02f16154351%3A0xf48a69299f5788a1!2zQWttZcWGdSBpZWxhIDIyLCBaZW1nYWxlcyBwcmlla8WhcGlsc8STdGEsIFLEq2dhLCBMVi0xMDQ4LCBMYXR2aWph!3m2!1d56.938660399999996!2d24.0957306!4m3!3m2!1d56.9409546!2d24.0965249!5e0!3m2!1slv!2slv!4v1625177115380!5m2!1slv!2slv" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <${P}>
-    More about the National Library of latvia <a href="https://lnb.lv/"> their website </a> 
+    More about the National Library of Latvia at <a href="https://lnb.lv/"> their website </a> 
     <//>
   `,
 }
@@ -68,8 +73,8 @@ export default function HomePage() {
         `,
       }}
     >
-      <${Hero} src="./images/posms2.png" />
-      <${Page}
+    <${Hero} src=${hero[language]} />
+    <${Page}
         style=${{
           background: `
             url(./images/fons.png) center center / 40px repeat,

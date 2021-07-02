@@ -6,8 +6,8 @@ import { useHtmlTitle } from './use-html.js'
 import { Header, Main, Footer } from './Layout.js'
 
 const heading = {
-  lv: `Mans ceļš uz Latvijas Universitāti`,
-  en: `My Path to University of Latvia`,
+  lv: `Mans ceļš uz Latvijas Universitātes Datorikas fakultāti`,
+  en: `My Path to the University of Latvia Faculty of Computing`,
 };
 
 export default function HomePage() {
@@ -66,7 +66,7 @@ function HeroHeading() {
     >
       ${
         (language == "en")
-        ? html`My Path to<br />University of Latvia<br />Faculty of Computing`
+        ? html`My Path to the<br />University of Latvia<br />Faculty of Computing`
         : html`Mans ceļš uz<br />Latvijas Universitātes<br />Datorikas fakultāti`
       }
     </h1>
